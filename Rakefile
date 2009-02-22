@@ -4,10 +4,10 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name = "foo"
-    s.summary = %Q{TODO}
+    s.summary = "everything foo"
     s.email = "briankbuckley@gmail.com"
     s.homepage = "http://github.com/bbuckley/foo"
-    s.description = "TODO"
+    s.description = "utilities for all things foo"
     s.authors = ["Brian K. Buckley"]
   end
 rescue LoadError
