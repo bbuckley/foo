@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = %q{2009-02-22}
   s.description = %q{utilities for all things foo}
   s.email = %q{briankbuckley@gmail.com}
-  s.files = ["lib/foo.rb", "test/foo_test.rb", "test/test_helper.rb"]
+  s.files = ["VERSION.yml", "lib/foo.rb", "test/foo_test.rb", "test/test_helper.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/bbuckley/foo}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
