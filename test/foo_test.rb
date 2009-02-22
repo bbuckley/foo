@@ -2,7 +2,7 @@ require File.dirname(__FILE__) + '/test_helper'
 
 class FooTest < Test::Unit::TestCase
   should "be created  without arguments" do
-    Foo.new 
+    Buckley::Foo.new 
     assert true
   end
   
@@ -12,5 +12,6 @@ class FooTest < Test::Unit::TestCase
     should "should know its size to be 0" do
       assert_equal 2, @array.size
     end
+    
   end
 end
