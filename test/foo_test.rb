@@ -1,9 +1,12 @@
 require File.dirname(__FILE__) + '/test_helper'
 
 class FooTest < Test::Unit::TestCase
-  should "be created  without arguments" do
-    Buckley::Foo.new 
-    assert true
+  should "be creatable  without arguments" do
+    assert Buckley::Foo.new 
+  end  
+  
+  should "be creatable with :to_foo syntax" do
+    assert_equal Buckley::Foo, 1.to_foo.class 
   end
   
   context "An Array with two elements" do
@@ -19,7 +22,8 @@ class FooTest < Test::Unit::TestCase
     
     should "print out nicely" do
       assert_equal "A Foo object", @foo.to_s
-    end   
-  end  
+    end     
+     
+ end  
   
 end

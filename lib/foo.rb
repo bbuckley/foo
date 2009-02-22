@@ -10,4 +10,10 @@ class Foo
    end
 end           
 
+end 
+
+class Object
+  def to_foo
+    Buckley::Foo.new self
+  end
 end
