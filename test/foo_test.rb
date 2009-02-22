@@ -11,7 +11,15 @@ class FooTest < Test::Unit::TestCase
     
     should "should know its size to be 0" do
       assert_equal 2, @array.size
-    end
+    end   
+  end  
+  
+  context "a Foo object" do
+    setup { @foo = Buckley::Foo.new }
     
-  end
+    should "print out nicely" do
+      assert_equal "A Foo object", @foo.to_s
+    end   
+  end  
+  
 end
