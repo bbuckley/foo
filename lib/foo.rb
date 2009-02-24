@@ -8,6 +8,8 @@ class Foo
    def to_s
      "A Foo object"
    end
+   
+   attr_accessor :dob, :dot
 end           
 
 end 
