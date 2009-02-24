@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Brian K. Buckley"]
-  s.date = %q{2009-02-22}
+  s.date = %q{2009-02-23}
   s.description = %q{utilities for all things foo}
   s.email = %q{briankbuckley@gmail.com}
   s.files = ["VERSION.yml", "lib/foo.rb", "test/foo_test.rb", "test/test_helper.rb"]
