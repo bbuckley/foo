@@ -1,8 +1,14 @@
 require File.dirname(__FILE__) + '/test_helper'
+ 
+describe "xxx" do
+  it  "xx" do
+    should.not.raise(Exception){  Buckley::Foo.new } 
+  end
+end
 
 class FooTest < Test::Unit::TestCase
   should "be creatable  without arguments" do
-    assert Buckley::Foo.new 
+    assert Buckley::Foo.new
   end  
   
   should "be creatable with :to_foo syntax" do

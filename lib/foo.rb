@@ -6,7 +6,7 @@ class Foo
    end   
    
    def to_s
-     "A Foo object"
+     "A Foo object!!"
    end
    
    attr_accessor :dob, :dot
