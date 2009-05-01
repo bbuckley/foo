@@ -1,5 +1,7 @@
 require File.dirname(__FILE__) + '/test_helper'
  
+ 
+ 
 describe "xxx" do
   it  "xx" do
     should.not.raise(Exception){  Buckley::Foo.new } 
