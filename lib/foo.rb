@@ -3,13 +3,11 @@ module Buckley
 
 class Foo
    def initialize(*a)  
-   end   
-   
+   end      
    def to_s
      "A Foo object!!"
    end
-   
-   attr_accessor :dob, :dot
+   attr_accessor :dob, :dot, :doc
 end           
 
 end 
