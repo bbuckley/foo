@@ -3,7 +3,7 @@ module Buckley
 
 class Foo
    def initialize(*a)  
-   end      
+   end
    def to_s
      "A Foo object!!"
    end
